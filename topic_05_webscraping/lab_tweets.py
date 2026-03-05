@@ -236,6 +236,7 @@ plt.bar(words, counts)
 plt.xlabel('Phrases')
 plt.ylabel('Number of Tweets Containing Phrase')
 plt.title('Phrase Mentions in Trump Tweets')
+plt.xticks(rotation=60, ha='right')
 plt.tight_layout()
 plt.show()
 image_filename = 'trump_tweets.png'
