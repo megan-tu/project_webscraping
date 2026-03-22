@@ -29,3 +29,6 @@ python3 ebay-dl.py <search_term> --num_pages <number_of_pages>
 Step 4: Generate a CSV file: Use the --csv flag:
 ```
 python3 ebay-dl.py <search_term> --num_pages <number_of_pages> --csv
+
+## Course Project
+[Course Project repository](https://github.com/mikeizbicki/cmc-csci040/tree/2026spring/project_02_webscraping)
