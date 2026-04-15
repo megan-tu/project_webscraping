@@ -176,4 +176,4 @@ if __name__ == '__main__':
     else:
         filename = args.search_term+'.json'
         with open(filename, 'w', encoding='ascii') as f:
-            f.write(json.dumps(items))
+            json.dump(items, f, indent=2)
